@@ -45,7 +45,7 @@ It should feel quite similar to code you would have seen in your first-year CS c
 ## Instructions
 
 In a small group (around 4–5 students), choose one of you to make a fork of
-https://github.com/CSC207-2025S-UofT/multiset-adt 
+https://github.com/CSC207-2026S-UofT/multiset-adt 
 
 Note: this can be a different team that you will work with for the rest of the term (Project), but it's a great opportunity for you to find some potential team members!
 
@@ -108,6 +108,7 @@ A few general strategies before we begin:
 
 **And, to reiterate, you shouldn't expect to complete the code in lab, but rather experience the process
 of attempting to tackle a relatively large coding task in a collaborative, team setting.**
+
 
 ### Java Concepts
 
@@ -178,7 +179,7 @@ instance of our ADT will store. Once we learn about Generics, we encourage you t
 and generalize it to make use of Generics.
 
 #### The Java Collections Framework (JCF)
-The JCF is the realization of ADTs in Java. We'll learn more about it in lecture this week and you'll
+The JCF is the realization of ADTs in Java. We'll learn more about it in lecture next week and you'll
 make use of it throughout the term anytime you want to store collections of objects or perform common
 tasks related to collections.
 
