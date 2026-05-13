@@ -45,7 +45,7 @@ It should feel quite similar to code you would have seen in your first-year CS c
 ## Instructions
 
 In a small group (around 4–5 students), choose one of you to make a fork of
-https://github.com/CSC207-2026S-UofT/multiset-adt 
+[https://github.com/CSC207-2026S-UofT/multiset-adt ](https://github.com/CSC207-2026S-UofT/Lab-2-Multiset-ADT)
 
 Note: this can be a different team that you will work with for the rest of the term (Project), but it's a great opportunity for you to find some potential team members!
 
