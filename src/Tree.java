@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Tree {
     // TODO complete this Tree class to replicate the implementation from the Tree class in adts.py
@@ -28,6 +29,19 @@ public class Tree {
                 s += subtree._str_indented(depth + 1);
             }
             return s;
+          
+    public int count(Integer item) {
+        if (this.is_empty()) {
+            return 0;
+        } else {
+            int num = 0;
+            if (Objects.equals(this._root, item)) {
+                num += 1;
+            }
+            for (Tree subtree: this._subtrees) {
+                num += subtree.count(item);
+            }
+            return num;
         }
     }
 }
