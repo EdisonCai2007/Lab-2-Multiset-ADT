@@ -15,6 +15,19 @@ public class Tree {
     public boolean is_empty(){
         return this._root == null;
     }
+    public int len() {
+        int size;
+        if (this.is_empty()) {
+            return 0;
+        } else {
+            size = 1;
+            for (Tree subtree : this._subtrees) {
+                size += subtree.len();
+                return size;
+            }
+
+        }
+    }
 
     public String __str__(){
         return this._str_indented(0);
@@ -47,3 +60,4 @@ public class Tree {
         }
     }
 }
+
