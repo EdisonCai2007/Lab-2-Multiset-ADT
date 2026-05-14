@@ -20,16 +20,18 @@ public class Tree {
         return this._str_indented(0);
     }
 
-    private String _str_indented(int depth){
+    private String _str_indented(int depth) {
         if (this.is_empty()) {
             return "";
-        }else {
+        } else {
             String s = "  ".repeat(depth) + this._root + "\n";
             for (Tree subtree : this._subtrees) {
                 s += subtree._str_indented(depth + 1);
             }
             return s;
-          
+        }
+    }
+
     public int count(Integer item) {
         if (this.is_empty()) {
             return 0;
