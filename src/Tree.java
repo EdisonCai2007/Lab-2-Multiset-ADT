@@ -14,4 +14,8 @@ public class Tree {
     public boolean is_empty(){
         return this._root == null;
     }
+
+    private static int count() {
+
+    }
 }
