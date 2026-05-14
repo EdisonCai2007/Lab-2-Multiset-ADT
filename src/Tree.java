@@ -23,9 +23,8 @@ public class Tree {
             size = 1;
             for (Tree subtree : this._subtrees) {
                 size += subtree.len();
-                return size;
             }
-
+            return size;
         }
     }
 
