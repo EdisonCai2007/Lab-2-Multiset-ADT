@@ -14,4 +14,19 @@ public class Tree {
     public boolean is_empty(){
         return this._root == null;
     }
+    public int len() {
+        int size;
+        if (this.is_empty()) {
+            return 0;
+        } else {
+            size = 1;
+            for (Tree subtree : this._subtrees) {
+                size += subtree.len();
+                return size;
+            }
+
+        }
+    }
+    }
 }
+
