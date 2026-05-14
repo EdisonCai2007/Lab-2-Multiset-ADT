@@ -25,7 +25,6 @@ public class Tree {
                 size += subtree.len();
             }
             return size;
-
         }
     }
 
